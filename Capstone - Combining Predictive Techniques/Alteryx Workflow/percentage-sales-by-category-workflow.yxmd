@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storeinformation.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>storeinformation.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storeinformation.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storeinformation.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storeinformation.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storeinformation.csv" type="V_String" />
+            <Field name="Zip" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storeinformation.csv" type="V_String" />
+            <Field name="Type" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storeinformation.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>storesalesdata.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="Day" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="Month" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="Year" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="Dry_Grocery" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="Dairy" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="Frozen_Food" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="Meat" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="Produce" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="Floral" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="Deli" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="Bakery" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+            <Field name="General_Merchandise" size="254" source="File: C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\storesalesdata.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="630" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Store" action="GroupBy" rename="Store" />
+            <SummarizeField field="Dry_Grocery" action="Sum" rename="Sum_Dry_Grocery" />
+            <SummarizeField field="Dairy" action="Sum" rename="Sum_Dairy" />
+            <SummarizeField field="Frozen_Food" action="Sum" rename="Sum_Frozen_Food" />
+            <SummarizeField field="Meat" action="Sum" rename="Sum_Meat" />
+            <SummarizeField field="Produce" action="Sum" rename="Sum_Produce" />
+            <SummarizeField field="Floral" action="Sum" rename="Sum_Floral" />
+            <SummarizeField field="Deli" action="Sum" rename="Sum_Deli" />
+            <SummarizeField field="Bakery" action="Sum" rename="Sum_Bakery" />
+            <SummarizeField field="General_Merchandise" action="Sum" rename="Sum_General_Merchandise" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="738" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sum_Dry_Grocery]+[Sum_Dairy]+[Sum_Frozen_Food]+[Sum_Meat]+[Sum_Produce]+[Sum_Floral]+[Sum_Deli]+[Sum_Bakery]+[Sum_General_Merchandise]" field="Total_Sales" size="8" type="Double" />
+            <FormulaField expression="([Sum_Dry_Grocery] / [Total_Sales]) * 100" field="Pct_Dry_Grocery" size="8" type="Double" />
+            <FormulaField expression="([Sum_Dairy] / [Total_Sales]) * 100" field="Pct_Dairy" size="8" type="Double" />
+            <FormulaField expression="([Sum_Frozen_Food] / [Total_Sales]) * 100" field="Pct_Frozen_Food" size="8" type="Double" />
+            <FormulaField expression="([Sum_Meat] / [Total_Sales]) * 100" field="Pct_Meat" size="8" type="Double" />
+            <FormulaField expression="([Sum_Produce] / [Total_Sales]) * 100" field="Pct_Produce" size="8" type="Double" />
+            <FormulaField expression="([Sum_Floral] / [Total_Sales]) * 100" field="Pct_Floral" size="8" type="Double" />
+            <FormulaField expression="([Sum_Deli] / [Total_Sales]) * 100" field="Pct_Deli" size="8" type="Double" />
+            <FormulaField expression="([Sum_Bakery] / [Total_Sales]) * 100" field="Pct_Bakery" size="8" type="Double" />
+            <FormulaField expression="([Sum_General_Merchandise] / [Total_Sales]) * 100" field="Pct_General_Merchandise" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Total_Sales = [Sum_Dry_Grocery]+[Sum_Dairy]+[Sum_Frozen_Food]+[Sum_Meat]+[Sum_Pr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="282" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Type" selected="False" input="Left_" />
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" input="Right_" />
+                <SelectField field="Right_Day" selected="False" input="Right_" />
+                <SelectField field="Right_Month" selected="False" input="Right_" />
+                <SelectField field="Right_Dry_Grocery" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_Dairy" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_Frozen_Food" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_Meat" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_Produce" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_Floral" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_Deli" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_Bakery" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_General_Merchandise" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="390" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Year</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-12-03 17:04:42</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>2015</Operand>
+              <StartDate>2020-12-03 17:04:42</StartDate>
+              <EndDate>2020-12-03 17:04:42</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year] = "2015"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="510" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Year" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="894" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\jerry\OneDrive\Desktop\Predictive Analytics for Business\Project 8 - Combining Predictive Techniques\pct_sales_category.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>pct_sales_category.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>pct_sales_category</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
